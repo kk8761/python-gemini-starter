@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # --- PASTE YOUR KEY BELOW ---
-MY_API_KEY = "AIzaSyBq4Ls_TK-5O9ChNnCHuAtp-JBd5GX9PNg"
+MY_API_KEY = "Upload your API Key here"
 
 genai.configure(api_key=MY_API_KEY)
 
@@ -14,4 +14,5 @@ try:
             print(f"FOUND: {m.name}")
             
 except Exception as e:
+
     print(f"Error: {e}")
